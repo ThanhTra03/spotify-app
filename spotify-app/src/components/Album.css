@@ -1,0 +1,58 @@
+/* src/components/Album.css */
+.album-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .album-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .album-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .album-info {
+    flex: 1;
+  }
+  
+  .track-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .track-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .track-item button {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient với hai màu */
+    color: white; /* Màu chữ trắng */
+    border: none; /* Không có viền */
+    border-radius: 5px; /* Bo tròn góc */
+    padding: 8px 10px; /* Khoảng cách bên trong */
+    margin-right: 10px; /* Khoảng cách bên phải */
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+    transition: background 0.3s; /* Hiệu ứng chuyển tiếp khi hover */
+  }
+  
+  /* Thêm hiệu ứng hover nếu muốn */
+  .track-item button:hover {
+    opacity: 0.8; /* Giảm độ mờ khi hover */
+  }
+  
+  
